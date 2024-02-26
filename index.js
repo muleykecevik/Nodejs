@@ -29,3 +29,4 @@ console.log(pi);
 require('dotenv').config()
 console.log(process.env.PORT); //env dosyasinin icerigini process env ye aktarir
 console.log(process.env.HOST); // bu sekilde env deki degiskeneleri kullanabiliyoruz
+console.log(process.env.SAMPLE_TEXT);
